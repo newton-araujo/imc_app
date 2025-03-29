@@ -49,8 +49,14 @@ const styles = StyleSheet.create({
      textButtonCalculator: {
         fontSize:20,
         color:"#ffffff"
-     }
+     },
 
+     errorMsg: {
+         fontSize:12,
+         color:'red',
+         fontWeight:"bold",
+         paddingLeft:20
+     }
 });
 
 
