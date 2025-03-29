@@ -6,7 +6,7 @@ export default function Title() {
     
     return (
         <View style={styles.boxTitle}>
-            <Text style={styles.textTitle}>ONEBITHEALTH</Text>
+            <Text style={styles.textTitle}>BMI CALCULATOR</Text>
         </View>
     );
 }
