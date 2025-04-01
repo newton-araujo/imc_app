@@ -4,14 +4,12 @@ const styles = StyleSheet.create({
     FormContext:{
         width:"100%",
         height:"100%",
-        bottom:0,
+        flex:1,
         backgroundColor:"#fff",
         alignItems:"center",
-        justifyContent:"space-around",
         borderTopLeftRadius:30,
         borderTopRightRadius:30,
-        marginTop:20,
-        paddingTop:15
+        paddingTop:30
     },
 
     form: {
@@ -58,6 +56,11 @@ const styles = StyleSheet.create({
          color:'red',
          fontWeight:"bold",
          paddingLeft:20
+     },
+
+     ShowResultImc: {
+      width:"100%",
+      height:"50%"
      }
 });
 
